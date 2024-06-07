@@ -1,0 +1,11 @@
+{
+  "firstName" : "Cheba",
+  "LastName" : "Warda",
+  "email" : "warda@gmail.com",
+  "password" : "goku",
+  "street" : "102 non main street",
+  "city" : "Madrid",
+  "zip" : "6001",
+  "passengersCount" : "3",
+  "expectedPrice" : "1323€ Euro"
+}

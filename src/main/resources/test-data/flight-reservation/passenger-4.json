@@ -1,0 +1,11 @@
+{
+  "firstName" : "rebeca",
+  "LastName" : "droit",
+  "email" : "rbedr@gmail.com",
+  "password" : "2_AE",
+  "street" : "Street main",
+  "city" : "Las Vegas",
+  "zip" : "4001",
+  "passengersCount" : "4",
+  "expectedPrice" : "3421€ Euro"
+}
