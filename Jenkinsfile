@@ -11,13 +11,13 @@ pipeline{
 
         stage('Build Image'){
             steps{
-                bat "docker build -t=vinsdocker/selenium"
+                bat "docker build -t=abdell98/selenium"
             }
         }
 
         stage('Push Image'){
             steps{
-                bat "docker push vinsdocker/selenium"
+                bat "docker push abdell98/selenium"
             }
         }
     }
