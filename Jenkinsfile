@@ -11,7 +11,7 @@ pipeline{
 
         stage('Build Image'){
             steps{
-                bat "docker build -t=abdell98/selenium"
+                bat "docker build -t=abdell98/selenium ."
             }
         }
 
@@ -21,10 +21,4 @@ pipeline{
             }
         }
     }
-    post {
-        always {
-            echo "doing clean up "
-        }
-    }
-
 }
